@@ -133,6 +133,7 @@ input, select{
     -webkit-text-fill-color:transparent;
     -moz-text-fill-color:transparent;
 }
+#background_icons
 .whatsApp {
     position:fixed;
     width:60px;
