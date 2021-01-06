@@ -134,7 +134,7 @@ input, select{
     -moz-text-fill-color:transparent;
 }
 #bg_icon {
-    /* background:radial-gradient(ellipse at left, ; */
+    background-image:linear-gradient(0.5turn, #277a4d, #58b371,#0b1131);
     height: 300px;
     position: relative;
     top: 600px;
