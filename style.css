@@ -37,7 +37,7 @@ body {
     border:0;
 }
 #form {
-    position: relative;;
+    position: relative;
     float:right;
     border:none;
     text-align: center;
@@ -133,7 +133,13 @@ input, select{
     -webkit-text-fill-color:transparent;
     -moz-text-fill-color:transparent;
 }
-#background_icons
+#bg_icon {
+    /* background:radial-gradient(ellipse at left, ; */
+    height: 300px;
+    position: relative;
+    top: 600px;
+    z-index: -1;
+}
 .whatsApp {
     position:fixed;
     width:60px;
@@ -152,5 +158,4 @@ input, select{
     display: block;
     height: 60px;
     width: 60px;
-    /* background-color: white; */
 }
