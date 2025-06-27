@@ -23,3 +23,23 @@ function mascara(i,t){
     }
 
 }
+
+// script.js
+window.addEventListener("DOMContentLoaded", function () {
+  const whatsappBtn = document.querySelector(".whatsApp");
+  const form = document.querySelector("form");
+
+  if (whatsappBtn) {
+    whatsappBtn.addEventListener("click", function () {
+      window.dataLayer = window.dataLayer || [];
+      window.dataLayer.push({ event: "whatsapp_click" });
+    });
+  }
+
+  if (form) {
+    form.addEventListener("submit", function () {
+      window.dataLayer = window.dataLayer || [];
+      window.dataLayer.push({ event: "form_submit" });
+    });
+  }
+});
